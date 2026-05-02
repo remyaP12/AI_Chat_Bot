@@ -1,0 +1,150 @@
+{
+  "intents": [
+   {
+  "tag": "greeting",
+  "patterns": ["Hi", "Hii", "Hiii", "Hello", "Helo", "Helloo",
+               "Hey", "Heey", "Good morning", "Good evening",
+               "Good afternoon", "Howdy", "Hi there", "Hey there",
+               "Hiya", "Sup", "Greetings"],
+  "responses": ["Hello! How can I help you?", 
+                "Hi there! What can I do for you?",
+                "Hey! Nice to meet you!",
+                "Hello! What can I help you with today?"]
+},
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you later", "See you",
+                   "Take care", "Good night", "Catch you later"],
+      "responses": ["Goodbye! Have a great day!", 
+                    "See you soon!",
+                    "Take care! Bye!",
+                    "Good night! Have a great time!"]
+    },
+    {
+      "tag": "how_are_you",
+      "patterns": ["How are you", "How are you doing", "How do you do",
+                   "Are you ok", "How is it going", "What is up",
+                   "Whats up", "You good"],
+      "responses": ["I am doing great! Thanks for asking!",
+                    "I am fine! How about you?",
+                    "All good here! How can I help you?"]
+    },
+    {
+      "tag": "about",
+      "patterns": ["What can you do", "Who are you", "What are you",
+                   "Tell me about yourself", "Introduce yourself",
+                   "What is your name", "Your name"],
+      "responses": ["I am an AI chatbot built using Python and NLP!",
+                    "I am your virtual assistant built with Flask and Scikit-learn!",
+                    "My name is ChatBot! I am here to help you!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Helpful", "That helped",
+                   "Appreciate it", "Great help", "You are helpful"],
+      "responses": ["You are welcome!", "Happy to help!", 
+                    "Anytime!", "Glad I could help!"]
+    },
+    {
+      "tag": "age",
+      "patterns": ["How old are you", "What is your age", "Your age",
+                   "When were you created", "When were you born"],
+      "responses": ["I am a brand new AI chatbot!",
+                    "Age does not matter for AI! I am always learning!",
+                    "I was just recently created using Python and NLP!"]
+    },
+    {
+      "tag": "creator",
+      "patterns": ["Who created you", "Who made you", "Who built you",
+                   "Who is your creator", "Who developed you"],
+      "responses": ["I was created by Remya using Python, NLP and Flask!",
+                    "Remya built me as part of her AI project!",
+                    "I was developed by Remya for her portfolio project!"]
+    },
+    {
+      "tag": "weather",
+      "patterns": ["What is the weather", "How is the weather",
+                   "Weather today", "Is it raining", "Temperature today"],
+      "responses": ["I am sorry, I cannot check live weather right now!",
+                    "I do not have access to live weather data yet!",
+                    "Please check a weather app for live updates!"]
+    },
+    {
+      "tag": "joke",
+      "patterns": ["Tell me a joke", "Say something funny", "Make me laugh",
+                   "Joke please", "Funny joke"],
+      "responses": ["Why do programmers prefer dark mode? Because light attracts bugs!",
+                    "Why did the computer go to the doctor? It had a virus!",
+                    "What do you call a fish without eyes? A fsh!"]
+    },
+    {
+      "tag": "help",
+      "patterns": ["Help", "I need help", "Can you help me",
+                   "Support", "Assist me", "What should I do"],
+      "responses": ["Sure! I am here to help! What do you need?",
+                    "Of course! Tell me what you need help with!",
+                    "I am happy to assist! Please tell me your question!"]
+    },
+    {
+      "tag": "feeling",
+      "patterns": ["I am sad", "I am happy", "I am tired", "I am bored",
+                   "I am stressed", "I feel good", "I am excited",
+                   "I am anxious", "I am worried"],
+      "responses": ["I understand! I am here for you!",
+                    "That is completely okay! How can I help you feel better?",
+                    "I hear you! Tell me more, I am listening!"]
+    },
+    {
+      "tag": "compliment",
+      "patterns": ["You are good", "You are smart", "You are helpful",
+                   "You are great", "You are amazing", "Well done",
+                   "Good job", "You are awesome"],
+      "responses": ["Thank you so much! That means a lot!",
+                    "You are so kind! Thank you!",
+                    "I am glad you think so! Thank you!"]
+    },
+    {
+      "tag": "insult",
+      "patterns": ["You are bad", "You are stupid", "You are useless",
+                   "You are dumb", "I hate you", "You are terrible"],
+      "responses": ["I am sorry to hear that! I will try to do better!",
+                    "I apologize if I disappointed you!",
+                    "I am still learning! Please give me another chance!"]
+    },
+    {
+      "tag": "time",
+      "patterns": ["What time is it", "Current time", "What is the time",
+                   "Tell me the time"],
+      "responses": ["I am sorry, I cannot check the live time right now!",
+                    "Please check your device for the current time!"]
+    },
+    {
+      "tag": "infosys",
+      "patterns": ["infosys job", "infosys salary", "infosys role",
+                   "what is infosys", "infosys sp", "infosys careers",
+                   "infosys hiring", "apply infosys", "infosys dse"],
+      "responses": ["Infosys SP role offers up to 21 LPA!",
+                    "Infosys is a leading IT company in India!",
+                    "Apply for Infosys SP role with strong Python and ML skills!"]
+    },
+    {
+      "tag": "skills",
+      "patterns": ["what skills", "python skills", "machine learning",
+                   "programming skills", "what to learn", "dsa skills",
+                   "coding skills", "tech skills"],
+      "responses": ["Python, ML and DSA are key skills for Infosys SP role!",
+                    "Focus on Python, TensorFlow and Data Structures!",
+                    "Learn Python, Scikit-learn and Flask for SP role!"]
+    },
+    {
+      "tag": "noanswer",
+      "patterns": [],
+      "responses": [
+        "Sorry, I do not know the answer to that!",
+        "I apologize, I do not understand that yet!",
+        "Sorry! I am still learning. Can you ask something else?",
+        "I do not have an answer for that right now. Sorry!"
+      ]
+    }
+  ]
+}
